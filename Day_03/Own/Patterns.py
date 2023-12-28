@@ -47,6 +47,13 @@ We include multiple patterns question and output
 3 3 3 3 3
 4 4 4 4 4
 5 5 5 5 5
+
+7.
+1
+1 * 2
+1 * 2 * 3
+1 * 2 * 3 * 4
+1 * 2 * 3 * 4 * 5
 '''
 num = int(input("Enter a number: "))
 def pattern1(num):
