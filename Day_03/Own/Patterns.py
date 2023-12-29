@@ -55,7 +55,7 @@ We include multiple patterns question and output
 1 * 2 * 3 * 4
 1 * 2 * 3 * 4 * 5
 '''
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 def pattern1(num):
     for row in range(1,num+1):
         for col in range(1,num+1):
@@ -105,4 +105,19 @@ def pattern7(num):
             else:
                 print("*",j, end=" ")
         print()
-pattern7(num)
+# pattern7(num)
+num = 5
+def pattern8(num):
+    counter = 1
+    for i in range(1, num + 1):
+        for j in range(i):
+            if j % 2 == 0:
+                print(counter, end=" ")
+            else:
+                print("*", counter, end=" ")
+            counter += 1
+        print()
+pattern8(num)
+
+# for c in range(1,10):
+#     print(c
