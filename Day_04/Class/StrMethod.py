@@ -1,9 +1,9 @@
 '''
 A file in which all about the strings been included which discussed in class
 '''
-str1 = "Hello\nWorld"
-str = r"Hello,\nWorld I am chitti memory 1 zetaByte Thala for a reason"
-str2= "World"
+# str1 = "Hello\nWorld"
+# str = r"Hello,\nWorld I am chitti memory 1 zetaByte Thala for a reason"
+# str2= "World"
 # print(str1+str2)
 # print(str1*5)
 # print(str1[4])
@@ -51,17 +51,63 @@ str2= "World"
 #isdigit
 #isnumeric
 #islower
-#isipper
+# #isipper
+#
+# sen = "Manjunath"
+# print(len(sen))
+# print(sen.upper())
+# print(sen.lower())
+# print(sen.islower())
+# print(sen.isupper())
+# print(sen.find('M'))
+# print(sen.isalnum())
+# print(sen.isdigit())
+# print(sen.isnumeric())
+# print(sen.join(sen))
 
-print(len(str1))
-print(str1.upper())
-print(str1.lower())
-print(str1.join(str1))
-print(str1.split(','))
-print(str1.find('T'))
-print(str1.index('c'))
-print(str1.isalnum())
-print(str1.isdigit())
-print(str1.isnumeric())
-print(str1.islower())
-print(str1.isupper())
+# mag1 = "python is a programming language"
+# mag2 = mag1.find("is")
+# mag3 = mag1.find("java")
+# mag4 = mag1.find("p",5)
+# mag5 =mag1.find("i", 6,25)
+# print(len(mag1))
+# print(mag2,mag3,mag4,mag5)
+
+mag1 = "python is a programming language"
+# mag2 = mag1.index("is")
+# mag4 = mag1.index("p",5)
+# mag5 =mag1.index("i", 6,25)
+# mag3 = mag1.index("java")
+# str1= "Manju"
+# str2="Manju123"
+# str3="12345"
+# str4="manju2033"
+# str5="python 234"
+#
+#
+# print(len(mag1))
+# print(str1.isalnum())
+# print(str2.isalnum())
+# print(str3.isalnum())
+# print(str4.isalnum())
+# print(str5.isalnum())
+
+#isdigit - no decimal values are allowed in it.
+# str1="12344"
+# str2="python123"
+# str3="IIIV"
+# str4="/U00B23"
+# str5="Python 34"
+# # print(str1.isdigit())
+# # print(str2.isdigit())
+# # print(str3.isdigit())
+# # print(str4.isdigit())
+# # print(str5.isdigit())
+# print(str1.isnumeric())
+# print(str2.isnumeric())
+# print(str3.isnumeric())
+# print(str4.isnumeric())
+# print(str5.isnumeric())
+
+mag2 = mag1[3:0:-2]
+print(mag2)
