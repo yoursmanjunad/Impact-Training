@@ -1,3 +1,7 @@
+-[ ] Code files with proper testcases and quality of code
+-[ ] Write these programs in Java and C
+
+
 ### Functions provides better modularity for your application and a high degree of code reusing.
 ### Based on the object python stores the value in the variable
 ### Internal working of function / python , why python allows us to use function without defining. Compare with C/Java
