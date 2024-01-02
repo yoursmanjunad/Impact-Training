@@ -44,4 +44,5 @@ out put:
 - Can be solved using in three ways using List, if and other
 - How lists works in background 
 
+- What eveer might be the order of passing arguments, to get the parameters in the same defined manner,we can use variables and assigning values to it so that even after giving the vaiables in random order, function can easily catch them and perform instruction easily
 ### Work on Prog 6
