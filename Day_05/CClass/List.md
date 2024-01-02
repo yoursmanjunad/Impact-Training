@@ -39,7 +39,7 @@ Mutable objects (like lists and dictionaries) are passed by reference. The funct
 - ```list.extend()```
 - ```list.count()``` - This method need exactly one argument, else it throws **Type Error**
 - ```list.index()```
-- ```list.insert(index,obj)```
+- ```list.insert(index,obj)``` - It enables us to insert the element object at particular index value, if the index is not present in the list, then it adds the element at the end of the list. if we try to access that element with the index which we've given in the argument, it throws the ```index error```.
 - ```list.pop[obj=list[-1]]```
 - ```list.remove(obj)``` - It removes the particular **element**  of the list. 
 - ```list.reverse()```
