@@ -4,7 +4,6 @@
 * When you define a function in Python, a function object is created. This object contains metadata about the function, including its bytecode (the compiled version of the function's code), default argument values, and other related information.
 This function object is stored in memory, and its memory is managed by Python's memory manager.
 2. Local Variables and Call Stack:
-
 * When a function is called, a new frame is created on the call stack. This frame contains space for local variables, parameters, and bookkeeping information.
 Local variables within the function are allocated memory within this frame. The frame acts as a container for everything related to the function call.
 When the function completes its execution, its frame is popped off the call stack, and the memory for local variables is released.
