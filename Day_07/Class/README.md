@@ -11,7 +11,6 @@ printf("value %d",a)
 printf("Address %d",&a)
 prints the address of a's adress for ptr.
 printf(" %d",*ptr) * = dereferencing 
-
 ```
 - [ ] Malloc , calloc functions ()
 - If **5000** is a address where we stored the value, the pointer address can be **5002**
