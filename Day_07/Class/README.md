@@ -20,6 +20,7 @@ printf(" %d",*ptr) * = dereferencing
 - if &* ==> nullify, then there is no symbol. 
 - [ ] How do you represent array in a pointer notation
 - **Name of the array is sufficient for base address**
+- 
 ```
 #include <stdio.h>
 int main()
