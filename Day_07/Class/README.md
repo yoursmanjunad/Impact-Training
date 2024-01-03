@@ -46,16 +46,29 @@ int main()
 }
 //Pplaying with Pointers
 ```
-['Malloc'](https://www.freecodecamp.org/news/malloc-in-c-dynamic-memory-allocation-in-c-explained/)
+* [Malloc](https://www.freecodecamp.org/news/malloc-in-c-dynamic-memory-allocation-in-c-explained/)
 ## Types of Pointers 
 1. **Null Pointer**
 ```commandline
 int *ptr = NULL;
 int a[3] = {1,2,3};
  ```
-2. **Dangling Pointer** - It points to the de-referencede memory, even after deleting the memory, it still points to that memory. 
+2. **Dangling Pointer** - It points to the de-referencede memory, even after deleting the memory, it still points to that memory. A
 3. **Void Pointer**
 4. **Wild Pointer** - if The pointer made generic, it is a wild pointer
+- [ ] add code for these pointers, explaination, examples, usage, internal working, etc. 
+**How to avoid dangling pointer?** - By assigning NULL to the pointer after deleting the memory. By using static also, we can avoid dangling pointer. Static can be removed when the program itself dies.
+- - Assigning values for array - ```arr[0] = 10``` ; etc... Using Pointer notation, we can do it as ---
 ```
+*(ptr+0)=10
+*(ptr+1)=20
+```
+- [ ] Know about MMU (Memory Management Unit)
+### Question - 1
+- [ ] WAP ```demo_04.c```and ```demo_05.c``` using Looping statements 
+### Question - 2
+- [ ] WAP of merging two strings alternatively using pointers 
+### Question - 3
+- [ ] Given 2 strings s1 and s2, modify string s1 such  that all the common characters of s1 and s2 is to  be removed aand the uncommon of s1 and s2 is to be concatenated. 
 
-```
+- Registor Memory Class - Will be part of our CPU instead of main memory location
