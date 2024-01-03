@@ -47,3 +47,16 @@ int main()
 }
 //Pplaying with Pointers
 ```
+['Malloc'](https://www.freecodecamp.org/news/malloc-in-c-dynamic-memory-allocation-in-c-explained/)
+## Types of Pointers 
+1. **Null Pointer**
+```commandline
+int *ptr = NULL;
+int a[3] = {1,2,3};
+ ```
+2. **Dangling Pointer** - It points to the de-referencede memory, even after deleting the memory, it still points to that memory. 
+3. **Void Pointer**
+4. **Wild Pointer** - if The pointer made generic, it is a wild pointer
+```
+
+```
