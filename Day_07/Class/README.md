@@ -186,3 +186,4 @@ ip[4] is equivalent to *(ip+4) and equivalent to ar[4]
 ```
 ##### Imp
 ## A POINTER SHOULD ALWAYS BE GIVEN A SUITABLE ADDRESS BEFORE IT IS USED 
+- The Size of the pointer is ```4 bytes``` of any type, according to ANSI. And it may also depends on the platform like, on Cloud, super machine, etc. 

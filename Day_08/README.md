@@ -4,5 +4,24 @@
 - To get the value or to perform any action in the next node, we should be knowing it's address, so that I can perform any action.
 - These nodes in memory are allocated in Dynamically. To know the next node, we store it's address in the current node as pointer, so we can reach there. Else, we can't access.
 - If we stop adding new nodes, the last node will be pointing to the ```Null``` where it doesn't point to address of a node.
-- [ ] How to design a class using **SOLID** principles
--  
+- [ ] How to design a class using **SOLID** principles 
+- **We need to give a semi-colon at the end of the structure because, to let compiler know that whole struct be treated as a One line. Generally, we close the line with the semi-colon, as the struct could be in multi-line, to avoid confusion for the compiler, we use semi-colon at the end of declaring the structure**
+- Head will always be pointing to the ```base address``` of the list. 
+- In LinkedList, we can **Add, delete, traverse** in the list. 
+## To do
+- [ ] Create a Linked List in C, Java 
+- [ ] Insert Values in it
+- [ ] Insert in between two nodes
+- [ ] Insert at the beginning
+- [ ] Insert at the End
+- [ ] Remove at the End
+- [ ] Remove between nodes
+- [ ] Remove at the Beginning
+- [ ] Add by value in Ascending order
+- [ ] Remove by value input
+- [ ] Traverse and print the size
+- [ ] Traverse and print the List 
+- [ ] Take input and update the list with Node number, and Node value
+- [ ] Search in the list, if it is present, return True, else false Node value or -1
+- [ ] Search a value, if it is present in  the list, then add a new node into it and print the list, else return false. 
+- [ ] Sort the List in a Ascending Order 
