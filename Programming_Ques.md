@@ -9,4 +9,3 @@
 -[ ] [Function to print middle of Linked List in C and Java](https://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/)```Adobe```
 -[ ] [Max Min](https://www.interviewbit.com/problems/max-min-05542f2f-69aa-4253-9cc7-84eb7bf739c4/) ```Interview Bit - Google```
 - [ ] [Rotate Array](https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article) ```Amazon``` ```Microsoft```
-- 
