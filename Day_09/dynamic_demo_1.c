@@ -7,7 +7,7 @@ struct Node
     struct Node *next;
     struct Node *prev;
 };
-
+// WE SHOULD BE POINTING TO  THE NULL AFTER CREATING THE NEW NODE DIRECCTLY
 typedef struct Node Node;
 void dispFList(Node *head);
 int main()
@@ -27,7 +27,7 @@ int main()
         if (newNode == NULL)
         {
             printf("Memory allocation failed.\n");
-            return 1; // Return an error code
+            return 1;
         }
 
         printf("\n Enter the new Node value: ");

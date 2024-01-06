@@ -23,3 +23,11 @@ Node n1,n2,n3;
 
 - This is how we create a **Doubly Linked** List in C
 - **Typedef** is used to give a new name to the existing data type.
+
+# Circular Linked List
+
+- There's noting big difference between Doubly and Circular. Only one single change is that `Last node will be poining to the first node instead of NULL`
+-
+
+- We can iterate over a list or an array in Negative values.
+- Prepare a list from range 0 to 100, in first half for even values and for second half odd.
