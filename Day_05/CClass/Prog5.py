@@ -1,4 +1,4 @@
-#Given array A of positive elements, count the number of small elemets on right side of each array
+#Given array A of positive elements, count the number of small elements on right side of each array
 # [5,4,3,2,1] - Input
 # 4,3,2 - Output
 

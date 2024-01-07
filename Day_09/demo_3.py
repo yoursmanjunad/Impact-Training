@@ -52,9 +52,15 @@
 # l1 = [" foo", 'BAR', "BaZ"]
 # l2 = list(map(lambda  s:s.strip().upper(),l1))
 # print(l2)
-fi1 = [2, 3, 4]
-fi2 = [3, 2, 1]
-
-fi3 = list(map(lambda x, y: x**y, fi1, fi2))
-print(fi3)
-
+# fi1 = [2, 3, 4]
+# fi2 = [3, 2, 1]
+#
+# fi3 = list(map(lambda x, y: x**y, fi1, fi2))
+# print(fi3)
+#
+list = [1,2,3,4]
+list2 = [4,3,2,1]
+list3 = [5,6,7,8]
+list3.reverse()
+print(list.sort())
+lsit3 = list2.sorte

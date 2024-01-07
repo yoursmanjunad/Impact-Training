@@ -1,1 +1,1 @@
-# Program to print the summation of three multiple series with
+# Program to print the summation of three multiple series 

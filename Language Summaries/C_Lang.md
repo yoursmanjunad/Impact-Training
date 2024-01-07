@@ -138,10 +138,10 @@ This is just a basic example for freeing up space, we can actually work on many 
   - `char` 8 bits
 - The `char`, `int`, `short`, and `long` types can be preceded by the qualifiers `signed ` or `unsigned`.
 - The default is **signed**.
-- `char` type is suitable for storing a chaaracter, but compiler also let to be used to tore numbers.
-- The number of buts to be stored depends on **compiler**.
+- `char` type is suitable for storing a character, but compiler also let to be used to store numbers.
+- The number of bytes to be stored depends on **compiler**.
 - **Long float** is identical to **double**
-- have an **L** or **l** suffic, the number is a signed long integer. Ex: `42L` `99L`
+- have an **L** or **l** suffix, the number is a signed long integer. Ex: `42L` `99L`
 - have a `U` or `u` suffix, the number is an unsigned integer. `42U`.
 - have both `U` and an `L` suffix the number is an `unsigned long integer`.
 - Contains a decimal point or scientific 'e' notation, the number is of type `double`. Ex: `7.3`, `42e-1`, `12.34E+4`
@@ -152,19 +152,19 @@ This is just a basic example for freeing up space, we can actually work on many 
 ### Character Constants
 
 - `\n` - newline
-- `\r` - carriage return
-- `\f` - form feed
+- `\r` - The carriage return character (\r) is used to move the cursor or pointer to the beginning of the current line.
+- `\f` - The form feed character is a non-printable control character that historically had a specific role in controlling the pagination or formatting of documents, particularly in the context of printed output.
 - `\t` - tab
 - `\b` - backspace
-- `\a` - audible alarm
+- `\a` - The \a escape sequence in C programming represents an audible alert or alarm character. When this character is encountered in a string or character constant and is printed or displayed, it triggers a system-specific audible alert or beep sound. This alert is intended to draw attention to a particular event or condition in the program.
 - `\0` - null
 - `\\` - backslash
 - `\` - prime
 
 #### Character Constants and String Constants
 
-- Characters representedwith the \ notation can also be used in strings. Strings are enclosed between " " and have an impiled null character at the end.
-- A string constant cannot be spread over more than one line. Howwever, if the cmpiler finds two string constants with only spacces or new lines in between it will automatically concatinate the strings together.
+- Characters represented with the \ notation can also be used in strings. Strings are enclosed between " " and have an impiled null character at the end.
+- A string constant cannot be spread over more than one line. However, if the compiler finds two string constants with only spaces or new lines in between it will automatically concatinate the strings together.
 
 ```
 The string constants "Hello the" "re Mum!"
@@ -175,12 +175,12 @@ are both equivalent to the single string constant "Hello there Mum!"
 
 **'A' is not same as "A"**
 
-- A single characte in '' can be regarded as a means of expressing a numeric value corresponding to the ASCII value of the character.
+- A single character in '' can be regarded as a means of expressing a numeric value corresponding to the ASCII value of the character.
 
 - 'A' is equivalent to '\101' or '\x41' and also `65`, `0101` and `0x41`
 - 'A' + 'B' is equivalent to **65+66** in C
 - initialisations can be mixed with other declarations.
-- If a variable not initialised, then global variables are initialised by default to zero.
+- If a variable not initialised, then global variables are initialised by default to **zero**.
 - There is no default initialisation for local variables. They will not have starting value of zero.
 - A variable my be declared as constant using the keyword `const`
 - Once they are declared, they cannot have any value assigned to them or be changed in any other way, by they can be used in expressions.
