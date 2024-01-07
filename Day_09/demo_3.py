@@ -59,6 +59,7 @@
 # print(fi3)
 #
 list = [1,2,3,4]
+
 list2 = [4,3,2,1]
 list3 = [5,6,7,8]
 list3.reverse()
