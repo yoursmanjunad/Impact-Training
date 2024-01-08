@@ -1,0 +1,1 @@
+- It will not count the overlapping substance - count function drawback
