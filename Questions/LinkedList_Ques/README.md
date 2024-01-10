@@ -1,0 +1,29 @@
+# Linked List Questions
+- [ ] Create a Linked List in C, Java & Python (Singly, Doubly and Circular)
+- [ ] Add a Node at the Beginning, Middle and End for every test case (Singly, Doubly and Circular)
+- [ ] Delete a Node at the Beginning, Middle and End for every test case (Singly, Doubly and Circular)
+- [ ] Update a Node at the Beginning, Middle and End for every test case (Singly, Doubly and Circular)
+- [ ] Reverse a Linked List - Singly and Doubly
+- [ ] Reverse from a Range 
+- [x] k- th Node 
+- [ ] Remove k values from list `partial`
+- [ ] Delete last occurrence of an item from linked list `partial`
+- [ ] Delete middle of linked list
+- [ ] Remove duplicate elements from sorted linked list
+- [ ] Detect Loop in linked list
+- [ ] Delete N nodes after M nodes of a linked list
+- [ ] Merge a linked list into another linked list at alternate positions
+- [ ] Circular Linked List Traversal
+- [ ] Deletion from a Circular Linked List
+- [ ] Delete without head pointer
+- [ ] Pairwise swap of a Linked list
+- [ ] Occurence of an integer in a Linked List
+- [ ] Given a Linked list of 0s, 1s and 2s, sort it
+- [ ] Convert singly linked list into circular linked list
+- [ ] Merge two sorted linked lists
+- [ ] Remove loop in Linked List
+- [ ] Function to check if a singly linked list is palindrome
+- [ ] [Reverse a sublist of Linked List](https://www.geeksforgeeks.org/reverse-sublist-linked-list/)
+- [ ] [Clone a linked list with next and random pointer](https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/)
+- [ ] [Print the sum of two linked lists values](https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article)
+- [ ] [Solve these all ](https://www.geeksforgeeks.org/data-structures/linked-list/)

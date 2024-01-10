@@ -1,0 +1,1 @@
+# Program to print the summation of three multiple series 

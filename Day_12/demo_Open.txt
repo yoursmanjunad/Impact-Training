@@ -1,0 +1,1 @@
+ A Virtual Private Cloud (VPC) is a private network hosted on GCP’s global infrastructure. It allows you to create and manage isolated networking environments, control traffic, and securely connect resources. VPCs are essential for ensuring network security, segmentation, and control in GCP.
