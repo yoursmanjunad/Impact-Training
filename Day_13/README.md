@@ -1,0 +1,5 @@
+- data abstraction
+- Inheritance
+- Polymorphism
+- Concrete Classes
+- 
