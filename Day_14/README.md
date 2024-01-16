@@ -25,4 +25,9 @@ fun()
 - IF we try to define a globla variable in a function scope, it throws `Syntax Error`
 - If we want to modify the variable value in a inner function of a outer function variable, it throws `Error`
 - Enclosure, Global, Local scope rules
-- 
+- Printing an Object which has null values it prints the object where it has been stored
+- Importance of `__name__ == "__main__":`
+
+#Problem Statements: 
+- [ ] Reverse the given string using stack
+- To check whether the given is balenced parenthesis or not. 

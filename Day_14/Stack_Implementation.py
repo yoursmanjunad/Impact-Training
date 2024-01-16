@@ -1,5 +1,5 @@
 s = []
-Cap = 5
+Cap = 20
 Top = 0
 Bottom = 0
 def pushStack(num):
@@ -40,7 +40,6 @@ if __name__=="__main__":
     printList()
     popStack()
     popStack()
-
     popStack()
     popStack()
 
