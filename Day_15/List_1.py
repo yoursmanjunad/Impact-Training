@@ -73,6 +73,11 @@ class LinkedList():
         while(self.temp.data != val):
             self.temp = self.temp.next
         self.temp.next = self.temp.next.next
+    def isPalindrome(self):
+        upto=self.__length//2
+
+
+
 
 if __name__ == "__main__":
     # n1 = Node(10)
