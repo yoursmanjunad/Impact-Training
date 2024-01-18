@@ -137,7 +137,41 @@ class LinkedList():
         superFast = superFast.next
         return
     # Removing duplicate elements from the list - Leetcode 82
-
+    def sortList(self,head,__length):
+        #This is Bubble sort Algorithm
+        slow = self.head
+        for i in range(__length):
+            fast = slow.next
+            while fast:
+                if slow.data > fast.data:
+                    slow.data, fast.data = fast.data, slow.data
+                fast = fast.next
+            slow = slow.next
+    # def InsertionList(self, head, __length):
+    #     slow = head
+    #     for i in range(__length):
+    #         min_Index = i
+    #         while fast:
+    # Reveres the list
+    def RevList(self):
+        prev = None
+        curr = self.head
+        while curr:
+            nxt = curr.next
+            curr.next = prev
+            prev = curr
+            curr = nxt
+        return prev
+    #Insertion Sort List
+    def insertionList(self):
+        temp1 = self.head
+        while temp1 is not None and temp1.next is not None:
+            temp2 = temp1.next
+            while temp2.next is not None:
+                if temp1.data < temp2.data:
+                    temp1.data, temp2.data = temp2.data, temp1.data
+                temp2 = temp2.next
+        temp1 = temp1.next
 if __name__ == "__main__":
     # n1 = Node(10)
     # n2 = Node(20)
@@ -154,8 +188,11 @@ if __name__ == "__main__":
     while(size!=0):
         LL.appendNode()
         size-=1
-    LL.printList()
+    # LL.printList()
     #LL.remDupli()    # LL.remDupII()
     # LL.printList()
-    LL.DelPos()
+    # LL.sortList(LL.head, LL.getLength())
+    # LL.RevList()
+    # LL.printList()
+    LL.insertionList()
     LL.printList()
