@@ -5,5 +5,5 @@
 - Private decleration of variables is using `_`
 - To inherit the method's variable, we cannot do it. 
 - [ ] Private Methods Decleration in Python\
-- [ ] Implement Stacks using LinkedList
-- [ ] Check a list is Palindrome or not
+- [x] Implement Stacks using LinkedList
+- [x] Check a list is Palindrome or not

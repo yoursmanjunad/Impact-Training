@@ -97,8 +97,6 @@ class LinkedList():
             faster = faster.next
         return
     # Not able to remove the last element if it is == val.
-
-
     def DelPos(self):
         pos = int(input("Enter the position to be removed: "))
         if pos == 1:
@@ -127,9 +125,9 @@ class LinkedList():
         slow = self.head
         fast = slow.next
         superFast = fast.next
-        while(superFast!=None):
+        while(superFast is not None):
             if fast.data == superFast.data:
-                while(superFast.next.data!=fast.data):
+                while(superFast.next is not fast.data):
                     superFast = superFast.next
                 slow.next = superFast.next
         slow = self.temp
@@ -172,6 +170,59 @@ class LinkedList():
                     temp1.data, temp2.data = temp2.data, temp1.data
                 temp2 = temp2.next
         temp1 = temp1.next
+    def IList(self):
+        slow= self.head
+        while(slow):
+            minI = slow
+            fast = slow.next
+            while(fast):
+                if minI.data>fast.data:
+                    mini = fast
+                fast = fast.next
+            temp = slow.data
+            slow.data = minI.data
+            minI.data = temp
+            slow =  slow.next
+        return self.head
+    # def maxDif(self):
+    #     if self.__length<2:
+    #         return 0
+    #     # self.sortList()
+    #     self.temp = self.head
+    #     maxDif = 0
+    #     while self.temp is not None:
+    #         temp2 = self.temp.next
+    #         while temp2 is not None:
+    #              if maxDif < temp2.data - self.temp.data:
+    #                  maxDif = temp2.data - self.temp.data
+    #              temp2 = temp2.next
+    #         self.temp = self.temp.next
+    #     print(maxDif)
+    #     return maxDif
+def maxDif(self):
+    if self.__length < 2:
+        return 0
+    current_node = self.head
+    maxDif = float(0)  # Initialize with a suitable starting value
+    while current_node is not None:
+        next_node = current_node.next
+
+        while next_node is not None:
+            current_difference = next_node.data - current_node.data
+
+            if maxDif < current_difference:
+                maxDif = current_difference
+
+            next_node = next_node.next
+
+        current_node = current_node.next
+
+    print(maxDif)
+    return maxDif
+
+
+
+
 if __name__ == "__main__":
     # n1 = Node(10)
     # n2 = Node(20)
@@ -194,5 +245,8 @@ if __name__ == "__main__":
     # LL.sortList(LL.head, LL.getLength())
     # LL.RevList()
     # LL.printList()
-    LL.insertionList()
+    # LL.insertionList()
+    # LL.printList()
+    # LL.remDupII()
+    LL.maxDi
     LL.printList()

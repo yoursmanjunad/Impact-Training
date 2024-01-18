@@ -23,11 +23,21 @@ class Employee:
         self.emp_FName = emp_FName
         self.emp_SName = emp_SName
         self.emp_phone = emp_Phone
+    def __str__(self):
+        # Employee = self.emp_Id
+        # Employee = self.emp_FName
+        # Employee = self.emp_SName
+        # Employee = self.emp_phone
+        iD = 'empId'+ str(self.emp_Id)
+        fName = "emp First Name" + str(self.emp_FName)
+        sName = "Emp Second Name "+ str(self.emp_SName)
+        ePhone = "Emp Phone- : "+str(self.emp_phone)
+
 class EmpLL:
     def __init__(self):
         self.head = None
     def insertEmp(self,empProp):
-        nn = Data(empProp['emp_Id'], empProp['emp_FName'], empProp['emp_SName'], empProp['emp_Phone'])
+        nn = (empProp['emp_Id'], empProp['emp_FName'], empProp['emp_SName'], empProp['emp_Phone'])
         nn.next = self.head
         self.head = nn
     def printingEmp(self):
@@ -35,5 +45,8 @@ class EmpLL:
         while temp:
             print(f"Emp ID: {temp.emp_id}, Emp Name: {temp.emp_FName} {temp.emp_SName}, Emp Age: {temp.emp_Phone}")
             temp = temp.next
+worker = EmpLL()
+empProp = Employee(emp_Id=242, emp_FName="Manjunath", emp_SName="Irukulla", emp_Phone=323536725)
+worker.insertEmp(empProp)
+worker.printingEmp()
 
-    #or

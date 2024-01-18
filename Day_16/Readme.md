@@ -11,11 +11,10 @@
 - Stability of sorting algorithms
 - We use bubble sort when the **input is already sorted**, **space is concern and also easy to implement.** 
 - We can avoid the bubble sort because the **average time complexity** is large. 
-- Selection Sort (Remaining)
-- [ x]Insertion Sort 
-## Task 
-- (Remaining)
-- Have a class of employees with the following data, properties as 
+- [ ]Selection Sort
+- [x]Insertion Sort 
+## Task
+- [ ] Have a class of employees with the following data, properties as 
 1. Emp ID
 2. Employee first name- string
 2. second name - string
