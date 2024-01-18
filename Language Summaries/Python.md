@@ -296,4 +296,17 @@ my_dict = {'banana': 3, 'apple': 1, 'orange': 2}
 sorted_dict_by_values = dict(sorted(my_dict.items(), key=lambda item: item[1]))
 print("Sorted Dictionary by Keys:",sorted_dict_by_va
 ```
-- 
+# Decorators
+```commandline
+def printMe():
+    print("Majito ki rubi ")
+m1 = printMe
+print(m1)
+m1()
+def outer_fun(inner_fun):
+    print("Chipi chipi chapa chapa")
+    # def inner_fun():
+    #     print("Dubi Dubi Daba Daba")
+    inner_fun()
+outer_fun(m1)
+```
