@@ -17,3 +17,7 @@ def outer_fun(inner_fun):
 outer_fun(m1)
 ```
 - When a function is decorated, it becomes callable. 
+- char name[20][10]
+- means that a string can have length upto 20 and can store them upto 10 values/
+- [ ] Write a decorator which gives the result of different functionalities. They are, add, sub, multiplication and div. 
+- 
