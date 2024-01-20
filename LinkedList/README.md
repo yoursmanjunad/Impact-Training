@@ -1,4 +1,4 @@
-# Linked List - Complete
+# Linked List Problems with Solution
 - This folder in this training is all dedicated to solve the linked list problems and note all the important topics, concepts , terminologies and tricks to solve the problems. 
 - First, we solve the basic of Linked list and grab some grip on it. 
 - Then, we try to solve questions on Leetcode, Gfg, and other platforms. 

@@ -25,10 +25,27 @@ class LinkedList:
             print(self.temp.data, end=" -->")
             self.temp = self.temp.next
         print("None")
+    def revList(self):
+        if self.head == None:
+            return
+        if self.head.next == None:
+            return
+        prevNode = None
+        currNode = self.head
+        nextNode = self.head.next
+        while nextNode!=None:
+            nextNode = currNode.next
+            currNode.next = prevNode
+            prevNode = currNode
+            currNode = nextNode
+        self.head = prevNode
+
 LL = LinkedList()
 nodes = int(input("Enter the number of nodes: "))
 while nodes!=0:
     LL.createNode()
     nodes-=1
 print("You've created the List: ")
+LL.printList()
+LL.revList()
 LL.printList()

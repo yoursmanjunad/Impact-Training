@@ -131,6 +131,23 @@ class LinkedList():
                 self.temp = self.temp.next
                 upto-=1
             self.temp.next = self.temp.next.next
+    # Reverse the List
+    def revList(self):
+        if self.head ==None:
+            return
+        if self.head.next == None:
+            return
+        prevNode = None
+        currNode = self.head
+        nextNode = self.head.next
+        while nextNode!=None:
+            nextNode = currNode.next
+            currNode.next=prevNode
+            prevNode = currNode
+            currNode = nextNode
+        self.head = prevNode
+    # Reverse the List in Range
+    
 
 # Creating object
 LL = LinkedList()
@@ -153,5 +170,7 @@ print("You've created these nodes as")
 #LL.remNodeVal()
 #LL.printList()
 # print(LL.detectCycle())
-LL.remKthEnd()
+# LL.remKthEnd()
+# LL.printList()
+LL.revList()
 LL.printList()
