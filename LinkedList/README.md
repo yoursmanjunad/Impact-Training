@@ -1,0 +1,38 @@
+# Linked List - Complete
+- This folder in this training is all dedicated to solve the linked list problems and note all the important topics, concepts , terminologies and tricks to solve the problems. 
+- First, we solve the basic of Linked list and grab some grip on it. 
+- Then, we try to solve questions on Leetcode, Gfg, and other platforms. 
+## To do
+- [x] Create a Linked List
+- [x] Insert Values in it
+- [x] Insert in between two nodes
+- [x] Insert at the beginning
+- [x] Insert at the End
+- [x] Remove at the End
+- [x] Remove between nodes
+- [x] Remove at the Beginning
+- [ ] Add by value in Ascending order
+- [x] Remove by value input
+- [x] Traverse and print the size
+- [x] Traverse and print the List 
+- [ ] Take input and update the list with Node number, and Node value
+- [ ] Search in the list, if it is present, return True, else false Node value or -1
+- [ ] Search a value, if it is not present in the list, then add a new node into it and print the list, else return false. 
+- [ ] Sort the List in a Ascending Order 
+- [ ] Sort the List with Node Exchange.
+- [x] Detect if it has Cycle
+- [ ] Merge Two Sorted Linked Lists
+- [ ] Remove Nth Node From End of List
+- [ ] Intersection Point in Y Shaped Linked Lists
+- [ ] Clone a Linked List with Next and Random Pointer
+- [ ] Rotate a Linked List
+- [ ] Palindrome Linked List
+- [ ] Add Two Numbers Represented by Linked Lists
+- [ ] Sort a Linked List
+- [ ] Remove Duplicates from Sorted List
+- [ ] Odd Even Linked List
+- [ ] Delete Nodes with a Given Value
+- [ ] LRU Cache Implementation using Linked List
+- [ ] Convert Binary Number in a Linked List to Integer
+- [ ] Swapping Nodes in Pairs
+- [ ] Reorder List

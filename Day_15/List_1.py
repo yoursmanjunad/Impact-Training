@@ -10,9 +10,9 @@ class LinkedList():
         self.temp =None
         self.__length = 0
     def appendNode(self,num=0):
-        nn = Node(num)
-        nn.data = int(input("Enter a value:"))
-        if self.head == None:
+        nn = Node(num) #creating the node first.
+        nn.data = int(input("Enter a value:")) #asking input for the node value
+        if self.head == None: #if there's no head pointing to anything, then we point the head to the Node newly created.
             self.head = nn
             self.__length +=1
         else:
