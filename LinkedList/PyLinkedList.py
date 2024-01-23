@@ -109,16 +109,39 @@ class LinkedList():
     #                 return False
     #         return True
     # This method returns if the List is Palindrome or not
-    # def isPalindrome(self):
-    #     if self.head == None:
-    #         return "Not having any List"
-    #     else:
-    #         val = ''
-    #         self.temp = self.head
-    #         while self.temp != None:
-    #             val.join(self.temp.data)
-    #             self.temp = self.temp.next
-    #     return val == reversed(val)
+    def isPalindrome(head):
+        # Find the middle of the linked list
+        slow = head
+        fast = head
+        while fast.next and fast.next.next:
+            slow = slow.next
+            fast = fast.next.next
+
+        # Reverse the second half of the linked list
+        second_half = LL.revList(slow.next)
+        slow.next = None  # Break the original linked list into two halves
+
+        # Compare the first and reversed second halves
+        while head and second_half:
+            if head.value != second_half.value:
+                return False
+            head = head.next
+            second_half = second_half.next
+
+        return True
+    def listNum(self):
+        if self.head == None:
+            return
+        if self.head.next == None:
+            return self.head.data
+        else:
+            var = 0
+            while self.head!=None:
+                var = var * 10
+                var +=self.head.data
+                self.head = self.head.next
+        return var
+    # This method returns the sum of two
     # Remove the Nth Node from the End of the List
     def remKthEnd(self):
         if self.head == None:
@@ -132,7 +155,7 @@ class LinkedList():
                 upto-=1
             self.temp.next = self.temp.next.next
     # Reverse the List
-    def revList(self):
+    def revList(self, head):
         if self.head ==None:
             return
         if self.head.next == None:
@@ -146,9 +169,49 @@ class LinkedList():
             prevNode = currNode
             currNode = nextNode
         self.head = prevNode
-    # Reverse the List in Range
-    
-
+    # Merge two sorted Linked List
+    # def mergeLists(self, List1, List2):
+    #     while(List1.head!=None or List2.head!=None):
+    #         if List1.head.data > List2.head.data:
+    #             newList.appendNode(List2.head.data)
+    #             List2.head = List2.head.next
+    #         elif List1.head.data < List2.head.data:
+    #             newList.appendNode(List1.head.data)
+    #             List1.head = List1.head.next
+    #         if List1.head == None:
+    #             while List2!=None:
+    #                 newList.appendNode(List2.head.data)
+    #                 List2.head = List2.head.next
+    #         if List2.head ==None:
+    #             while List1!=None:
+    #                 newList.appendNode(List1.head.data)
+    #                 List1.head = List1.head.next
+    # Method to return the sum of the values in the Linked List
+    def sumValList(self):
+        if self.head == None:
+            return
+        if self.head.next == None:
+            return self.head
+        else:
+            sum = 0
+            self.temp =self.head
+            while self.temp!=None:
+                sum+= self.temp.data
+                self.temp = self.temp.next
+            return sum
+    # Removing duplicates from sorted List
+    def remDupli(self):
+        if self.head == None:
+            return
+        if self.head.next == None:
+            return
+        else:
+            self.temp = self.head
+            while self.temp!=None:
+                if self.temp.next == self.temp:
+                    self.temp.next = self.temp.next.next
+                self.temp = self.temp.next
+        return
 # Creating object
 LL = LinkedList()
 nodes = int(input("Enter how many nodes you have to enter: "))
@@ -172,5 +235,8 @@ print("You've created these nodes as")
 # print(LL.detectCycle())
 # LL.remKthEnd()
 # LL.printList()
-LL.revList()
-LL.printList()
+# LL.revList()
+# LL.printList()
+# print(LL.listNum())
+print(LL.isPalindrome())
+print(LL.printList())
