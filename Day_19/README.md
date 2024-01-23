@@ -34,7 +34,7 @@
 1. PreOrder `( Current - left - right)`
 2. InOrder `(left - current - right)`
 3. Post Order `(left - right - current)`
-![Traversing Tree](C:\Impact Training\Day_19\WhatsApp Image 2024-01-23 at 11.13.52_9628236e.jpg)
+![Traversing Tree](https://global-uploads.webflow.com/5d0dc87aac109e1ffdbe379c/60e18e09daeb6db6f4995305_-Vsv_RLYEukjbDMgKxKJpxTnA246o-X1OjUPkl5HvnSiR-dFU4w5qKNaUtw-rq8wD4vMTGxFKtjvKCt7Uthmidpl_ajqRpVqgAH57N1HTpQ5MGBE4HCvE0dq7gTeM4-JtFLkQShX.png)
 ### Bredth First Search
 - We traverse in Tree using `BFS` in Level Order.
 ### Types of Binary Tree:
@@ -43,7 +43,7 @@
   - **Degenerate Tree** - Every internal node has one child, such trees are performed as Linked List. 
 ![](https://www.win.tue.nl/~kbuchin/teaching/JBP030/notebooks/bst-height5.png)
   - **Skewed Binary Tree** - Same as Degenerated Tree in which either dominated by Left nodes or the Right nodes.
-![](https://www.gatevidyalay.com/wp-content/uploads/2018/07/Skewed-Binary-Tree-Example.png)
+![SBT](https://www.gatevidyalay.com/wp-content/uploads/2018/07/Skewed-Binary-Tree-Example.png)
 ### Types of Binary Trees based on Completion of Levels
 1. **Complete Binary Tree** - If all the levels are completely filled except possibly last level and the last level has all keys as left as possible. 
 As complete binary tree is same like Full Binary tree but there are two major differences, are 
