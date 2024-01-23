@@ -1,6 +1,7 @@
 # Non Linear Data Structures
 - These Non Linear D.S used for hierarchial representation of data. 
 ### Trees
+- Tree can be defied as an `acycylic`, `Undirected`and `Connected Graph`
 - Each node has two components - data and a link to its sub category. 
 - Quicker and Easier access to the data
 - Store hierarchial data, like folder structure, organization structure, XML/HTML Data
@@ -19,6 +20,8 @@
 - **Ancestor** --- parent,  grand parent or great grand parent of a `node`
 - **Depth** --- Measured from Top to Bottom, whereas Top is the `Level 0` and the bottom is where the max depth of the tree.
 - **Height** ---
+- **Internal Nodes** -- These are the nodes which are excepted leaf nodes. 
+- **Degree** --- A degree os a node is the number of children. Since lead node doesn't have children, its degree is 0. The degree of a node can be any whole number from 0 to N.
 - ![Tree Terminology](https://th.bing.com/th/id/OIP.n3NJzfzNPkz52o-WwAo1VQAAAA?rs=1&pid=ImgDetMain)
 ### Binary Trees
 - It is a tree data structure in which each node can have at most two children. which are referred to as the left child and the right child. 
@@ -39,8 +42,9 @@
 - We traverse in Tree using `BFS` in Level Order.
 ### Types of Binary Tree:
   - **Full Binary Tree** - If a Tree having every node has 0 or 2 nodes children. If having 1 child, it's not a full binary tree
+  - `The number of Leaf nodes = number of internal nodes+1`
 ![FBT](https://image2.slideserve.com/4451147/full-binary-tree-l.jpg)
-  - **Degenerate Tree** - Every internal node has one child, such trees are performed as Linked List. 
+  - **Degenerate Tree** - Every internal node has one child, such trees are performed as Linked List.
 ![](https://www.win.tue.nl/~kbuchin/teaching/JBP030/notebooks/bst-height5.png)
   - **Skewed Binary Tree** - Same as Degenerated Tree in which either dominated by Left nodes or the Right nodes.
 ![SBT](https://www.gatevidyalay.com/wp-content/uploads/2018/07/Skewed-Binary-Tree-Example.png)
@@ -50,10 +54,14 @@ As complete binary tree is same like Full Binary tree but there are two major di
   - Every level except he last level must be completely filled
   - All the leaf elements must lean towards the left
   - The last leaf element might not have a right sibling, i.e a complete binary tree doesn't have to be full binary tree.
-![Complete Binary Tree](https://media.geeksforgeeks.org/wp-content/uploads/binary_tree-1.png)
+  - `The number of intternal nodes = n/2 n--> Total nnumber of Nodes`
+  - Last level of a complete binary tree can have `1 to 2^h is the height of the tree`
+  ![Complete Binary Tree](https://media.geeksforgeeks.org/wp-content/uploads/binary_tree-1.png)
 2. **Perfect Binary Tree** - A binary tree is a perfect binary tree in which all the internal nodes have two children and all leaf nodes are at the same level. 
    - In this, every internal nodes has exactly two child nodes and all the leaf nodes are at the same level. 
    - In a perfect binary tree, **the number of leaf nodes is the number of internal nodes plus 1.**  
+   - The number of leaf nodes = `(n+1)/2` where `n` is the total number of nodes. 
+   - The total number of nodes `= s^h+1 -1` where h is the height of the tree. 
 ![Perfect Binary Tree](https://th.bing.com/th/id/OIP.8DEnOoZD9s4DPrACWRfcDAHaD4?rs=1&pid=ImgDetMain)
 3. **Balanced Binary Tree** - A binary tree is balanced if the height os the tree is O(Log n) where `n` is the number of nodes
   - The difference between the height of the left and right subtree for each node is either 0 or 1. 
